@@ -15,7 +15,7 @@ int main() {
         montante = aporte * (1 + tx);
         montante *= (pow((1 + tx), i) - 1) / tx;
 
-        printf("Montante total fim do mes %d: R$ %.2f\n", i, montante);
+        printf("Montante ao fim do mes %d: R$ %.2f\n", i, montante);
     }
 
     return 0;

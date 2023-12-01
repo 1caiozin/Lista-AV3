@@ -38,7 +38,7 @@ int RomPDecimal(char *numRo) {
 void PrintBin(int decimal) {
 
 
-    printf(" na base de pot 2: ");
+    printf(" na base 2: ");
     int flag = 0;
     for (int i = 11; i >= 0; i--) {
         int bit = (decimal >> i) & 1;
@@ -64,9 +64,9 @@ int main() {
     printf("%s", numRo);
     PrintBin(decimal);
 
-    printf("%s na base de pot 10: %d\n", numRo, decimal);
+    printf("%s na base 10: %d\n", numRo, decimal);
 
-    printf("%s na base de pot 16: %x\n", numRo, decimal);
+    printf("%s na base 16: %x\n", numRo, decimal);
 
     return 0;
 }
