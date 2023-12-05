@@ -64,7 +64,7 @@ int main() {
     printf("%s", numRo);
     PrintBin(decimal);
 
-    printf("%s na base 10: %d\n", numRo, decimal);
+    printf("%s na base 9: %d\n", numRo, decimal);
 
     printf("%s na base 16: %x\n", numRo, decimal);
 
